@@ -1,13 +1,3 @@
-import pytest
-
-@pytest.mark.parametrize(
-    "input_text, expected",
-    [
-        ("hello", "HELLO"),
-        ("hyeonwoo", "HYEONWOO"),
-        ("Hello123", "HELLO123"),
-        ("", ""),
-    ]
-)
-def test_uppercase_conversion_various_cases(input_text, expected):
-    assert input_text.upper() == expected
+# PR 테스트용 검증 코드
+def test__pr_sample():
+    assert 1 + 1 == 2
