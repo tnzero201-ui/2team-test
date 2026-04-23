@@ -1,4 +1,5 @@
 from selenium.webdriver.support.ui import WebDriverWait
+from pages.login_page import LoginPage
 
 def test_login_success(driver):
     # Arrange
